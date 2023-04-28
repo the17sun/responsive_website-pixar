@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11-dars</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <!-- HEADER START -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__wrapper">
+                <div class="site-header__wrapper-start">
+                    <a class="site-header__logo" href="./index.html">
+                        <svg width="81" height="28" viewBox="0 0 81 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 27.3919V0.303287H9.34316C10.5077 0.295204 11.664 0.499932 12.7556 0.907471C13.7897 1.29072 14.742 1.86772 15.5618 2.6078C16.3947 3.36821 17.057 4.29789 17.5046 5.3351C17.9523 6.3723 18.175 7.49328 18.158 8.62358C18.1698 9.74744 17.9445 10.8611 17.497 11.8913C17.0496 12.9215 16.39 13.8449 15.5618 14.6008C14.7422 15.3412 13.7899 15.9182 12.7556 16.3011C11.6648 16.7088 10.5093 16.9139 9.34542 16.9065H4.25674V27.3862L0 27.3919ZM9.45604 12.8257C10.1017 12.8383 10.7431 12.7171 11.34 12.4697C11.8662 12.2485 12.3409 11.92 12.7341 11.5051C13.1055 11.1105 13.3993 10.649 13.5999 10.1448C13.7961 9.66446 13.8984 9.15069 13.9013 8.63152C13.8979 7.55157 13.4798 6.51456 12.7341 5.73642C12.3077 5.30129 11.7976 4.95789 11.2348 4.72715C10.672 4.49641 10.0684 4.38315 9.46056 4.39429H4.25674V12.8302L9.45604 12.8257Z" fill="currentColor"/>
+                            <path d="M21.4734 8.85371V27.3919H25.6556V8.85371H21.4734Z" fill="currentColor"/>
+                            <path d="M26.3611 2.83452C26.3674 3.20623 26.2989 3.57538 26.1598 3.91992C26.0208 4.26446 25.814 4.57731 25.5518 4.83977C25.2975 5.10879 24.9903 5.32169 24.6496 5.46494C24.3089 5.60819 23.9422 5.67864 23.573 5.6718V0.000627875C23.9422 -0.00592918 24.3088 0.0646457 24.6494 0.207876C24.9901 0.351106 25.2973 0.563865 25.5518 0.832657C25.8134 1.09484 26.0199 1.40716 26.1589 1.75105C26.2979 2.09495 26.3667 2.4634 26.3611 2.83452Z" fill="#35AF39"/>
+                            <path d="M23.5696 0.000636352V5.67521C23.1955 5.68389 22.8238 5.61441 22.4779 5.47118C22.132 5.32795 21.8195 5.11409 21.5603 4.84318C21.2969 4.58076 21.0891 4.26751 20.9494 3.92231C20.8097 3.5771 20.7411 3.20708 20.7475 2.83452C20.7422 2.46314 20.8114 2.09449 20.9511 1.75055C21.0907 1.40662 21.2979 1.09445 21.5603 0.832666C21.8199 0.562198 22.1324 0.34864 22.4782 0.205443C22.824 0.0622456 23.1956 -0.00748732 23.5696 0.000636352Z" fill="#35AF39"/>
+                            <path d="M34.8486 17.9709L28.481 8.85371H33.3417L37.3343 14.7176H37.4471L41.1722 8.85371H46.2203L39.7781 17.9709L46.3331 27.3919H41.3664L37.3726 21.3387H37.2598L33.2999 27.3919H28.3681L34.8486 17.9709Z" fill="currentColor"/>
+                            <path d="M65.2893 22.9653C64.4947 24.4194 63.3552 25.654 61.9717 26.5598C60.5419 27.5196 58.7843 27.9995 56.699 27.9995C55.3882 28.0133 54.088 27.7623 52.8757 27.2615C51.7354 26.7889 50.7032 26.0872 49.8426 25.1996C48.9783 24.302 48.2996 23.2413 47.8458 22.0789C47.3571 20.8192 47.1142 19.4769 47.1301 18.1251C47.1227 16.8268 47.3523 15.5382 47.8074 14.3231C48.2358 13.1637 48.8815 12.0975 49.7094 11.182C50.5737 10.2405 51.6261 9.49271 52.7979 8.98757C53.9696 8.48244 55.2344 8.23133 56.5094 8.25066C57.9392 8.25066 59.214 8.49022 60.3338 8.96934C61.4151 9.42349 62.3856 10.1076 63.1784 10.9746C63.9808 11.8743 64.5899 12.9305 64.9676 14.0771C65.3926 15.3558 65.6028 16.6966 65.5895 18.0446V18.3846C65.5654 18.4964 65.5526 18.6103 65.5512 18.7247C65.5266 18.8237 65.514 18.9253 65.5139 19.0274H51.3123C51.3651 19.8327 51.583 20.6185 51.9524 21.3353C52.2761 21.9571 52.7174 22.5096 53.2516 22.9619C53.7568 23.3856 54.3391 23.7067 54.9663 23.9073C55.562 24.1045 56.1847 24.2066 56.8119 24.21C58.016 24.21 59.0082 23.9202 59.7886 23.3405C60.5665 22.7601 61.2192 22.0274 61.7076 21.1868L65.2893 22.9653ZM61.4073 15.8149C61.3409 15.3791 61.2207 14.9534 61.0495 14.5476C60.85 14.0652 60.5555 13.6284 60.1837 13.2632C59.7461 12.8402 59.2354 12.5006 58.6767 12.2612C58.0619 11.9838 57.315 11.8452 56.436 11.8452C55.2319 11.8452 54.1957 12.2045 53.3273 12.9232C52.4588 13.6418 51.8749 14.6057 51.5753 15.8149H61.4073Z" fill="currentColor"/>
+                            <path d="M68.7547 8.85369H72.7055V11.6536H72.9313C73.1688 11.1616 73.4819 10.7102 73.8591 10.316C74.247 9.89965 74.6912 9.54019 75.1787 9.24817C75.6682 8.95657 76.186 8.71577 76.7241 8.5295C77.226 8.34898 77.7544 8.25397 78.2875 8.24837C78.8074 8.23859 79.3264 8.29612 79.8317 8.41954C80.2394 8.52653 80.632 8.68498 81 8.8911L79.7944 12.7123C79.4992 12.5808 79.1891 12.4856 78.8711 12.4289C78.4668 12.3607 78.0573 12.3288 77.6474 12.3337C77.0015 12.3262 76.3626 12.4698 75.7815 12.7531C75.2163 13.0321 74.7108 13.4195 74.2937 13.8935C73.8555 14.3945 73.5168 14.9752 73.2959 15.604C73.0551 16.2746 72.9339 16.9826 72.938 17.6954V27.3918H68.7615L68.7547 8.85369Z" fill="currentColor"/>
+                            </svg>                            
+                    </a>
+
+                    <nav class="sitenav">
+                        <ul class="sitenav__list">
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Services</a>
+                            </li>
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Portfolio</a>
+                            </li>
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Team</a>
+                            </li>
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Blog</a>
+                            </li>
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <a class="site-header__btn" href="tel:+2395550108" role="button">(97)-325-76-00</a>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main class="site-main">
+        <!-- HERO SECTION START -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-section__wrapper">
+                    <div class="hero-section__wrapper-start">
+                        <h1 class="hero-section__title">
+                            Take your business to the next level take out
+                        </h1>
+
+                        <p class="hero-section__info-text">
+                            Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+                        </p>
+
+                        <button class="hero-section__btn" type="button">Learn more</button>
+                    </div>
+
+                    <div class="hero-section__wrapper-end">
+                        <iframe class="hero-section__video" width="592" height="334" src="https://www.youtube.com/embed/1ZY8kq4iWV8" title="Zaur Xan - Düşün meni (cover) (Zaur Qasimov)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HERO SECTION END -->
+
+        <!-- COURSES SECTION START -->
+        <section class="courses-section">
+            <div class="container">
+                <h2 class="courses-section__title">
+                    How can we help you?
+                </h2>
+
+                <ul class="courses-section__list">
+                    <li class="courses-section__item">
+                        <h3 class="courses-section__item--title">
+                            Web Designer
+                        </h3>
+
+                        <p class="courses-section__item--desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Ut enim ad minim veniam, quis 
+                        </p>
+
+                        <a class="courses-section__item--link" href="#">View  more</a>
+                    </li>
+                    <li class="courses-section__item">
+                        <h3 class="courses-section__item--title item--title__smm">
+                            SMM
+                        </h3>
+
+                        <p class="courses-section__item--desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Ut enim ad minim veniam, quis 
+                        </p>
+
+                        <a class="courses-section__item--link" href="#">View  more</a>
+                    </li>
+                    <li class="courses-section__item">
+                        <h3 class="courses-section__item--title item--title__branding">
+                            Branding
+                        </h3>
+
+                        <p class="courses-section__item--desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Ut enim ad minim veniam, quis 
+                        </p>
+
+                        <a class="courses-section__item--link" href="#">View  more</a>
+                    </li>
+                    <li class="courses-section__item">
+                        <h3 class="courses-section__item--title item--title__developer">
+                            Developer
+                        </h3>
+
+                        <p class="courses-section__item--desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Ut enim ad minim veniam, quis 
+                        </p>
+
+                        <a class="courses-section__item--link" href="#">View  more</a>
+                    </li>
+                    <li class="courses-section__item">
+                        <h3 class="courses-section__item--title item--title__grafic">
+                            Graphic design
+                        </h3>
+
+                        <p class="courses-section__item--desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Ut enim ad minim veniam, quis 
+                        </p>
+
+                        <a class="courses-section__item--link" href="#">View  more</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- COURSES SECTION END -->
+
+        <!-- WORK SECTION START -->
+        <section class="work-section">
+            <div class="container">
+                <div class="work-section__content">
+                    <h2 class="work-section__content--title">
+                        How do we work?
+                    </h2>
+
+                    <p class="work-section__content--desc">
+                        Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+                    </p>
+                </div>
+
+                <ol class="work-section__list">
+                    <li class="work-section__item">
+                        <img class="work-section__item--img" 
+                             src="./images/how-do-work-img-one.jpg" 
+                             width="488"
+                             height="390"
+                             alt="Let's clarify the requirements">
+                        <div class="work-section__item--end">
+                            <h3 class="work-section__item--title">
+                                Let's clarify the requirements
+                            </h3>
+    
+                            <p class="work-section__item--desc">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="work-section__item">
+                        <div class="work-section__item--end">
+                            <h3 class="work-section__item--title">
+                                Let's clarify the requirements
+                            </h3>
+    
+                            <p class="work-section__item--desc">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+
+                        <img class="work-section__item--img" 
+                             src="./images/how-do-work-img-two.jpg" 
+                             width="488"
+                             height="390"
+                             alt="Let's clarify the requirements">
+                    </li>
+                    <li class="work-section__item">
+                        <img class="work-section__item--img" 
+                             src="./images/how-do-work-img-three.jpg" 
+                             width="488"
+                             height="390"
+                             alt="Let's clarify the requirements">
+                        <div class="work-section__item--end">
+                            <h3 class="work-section__item--title">
+                                Let's clarify the requirements
+                            </h3>
+    
+                            <p class="work-section__item--desc">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <!-- WORK SECTION END -->
+
+        <!-- FORM SECTION START -->
+        <section class="form-section">
+            <div class="container">
+                <div class="form-section__content">
+                    <h2 class="form-section__content--title">
+                        Leave your number and we'll call you back
+                    </h2>
+
+                    <p class="form-section__content--desc">
+                        Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+                    </p>
+                </div>
+
+                <div class="form-section__wrapper">
+                    <form class="form-section__wrapper--form" action="https://echo.htmlacademy.ru/courses" method="POST">
+                        <label>
+                            <input class="wrapper--form__input" type="text" name="user_name" placeholder="Name" required>
+                        </label>
+
+                        <label>
+                            <input class="wrapper--form__input" type="tel" name="phone_number" placeholder="Phone number" required>
+                        </label>
+
+                        <label>
+                            <select class="wrapper--form__input" name="user_comment">
+                                <option selected disabled hidden>Description</option>
+                                <option value="Comment">Comment</option>
+                                <option value="Comment">Comment</option>
+                                <option value="Comment">Comment</option>
+                                <option value="Comment">Comment</option>
+                            </select>
+                        </label>
+
+                        <button class="wrapper--form__btn" type="submit">Send</button>
+
+                        <span class="wrapper--form__info-text">We call back in 10-30 minutes, guaranteed!</span>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- FORM SECTION END -->
+    </main>
+    <!-- MAIN END -->
+    
+</body>
+</html>
